@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/aboutStyle.css">
+    <script src="https://kit.fontawesome.com/1d4d27c0b7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <button class="returnButton" onclick="location.href='https://jmiller7334.mccdgm.net/web115'">Return</button>
+        <button onclick="location.href='https://jmiller7334.mccdgm.net/web115/cafeWebsite/'">Home</button>
+        <button onclick="location.href='https://jmiller7334.mccdgm.net/web115/cafeWebsite/menu'">Menu</button>
+        <button onclick="location.href='https://jmiller7334.mccdgm.net/web115/cafeWebsite/about'">About</button>
+
+        <button id="buttonToggleSidebar" class="sidebarButton" onclick="toggleSidebar()">&#9776; News</button>
+    </nav>
+
+    <!-- PAGE CONTENT -->
+    <div id="main" class="container">
+        <div class="imgOpacity"></div>
+        <img class="headerImg" src="img/shopExterior.jpg" alt="shopExterior">
+        
+        <div class="profileContainer">
+            <img src="img/profile2.jpg" alt="TheDev">
+            <h1>Jacob Miller</h1>
+        </div>
+        <section>
+            <h2 id="about">About The Developer</h2>
+            <p>Jacob Miller is an aspiring website and mobile application
+                developer. He also enjoys programming video games in Lua
+                in his free time as well. His favorite programming language
+                 is Lua.<br>
+                <br>
+                He is currently pursuing associate degrees in both mobile application
+                design and development and web design. 
+            </p>
+
+            <h2 id="about">Goals of Creating This Site</h2>
+            <p> The purpose of designing this website was to 
+                put into practice all the skills learned regarding web development from the fall 2022 semester.<br>
+                <br>
+                These things include:<br>
+                - Using icons obtained from the web such as icons from font awesome.<br>
+                - Responsive design to create website compatibility with a variety of devices.<br>
+                - Proper styling using CSS to style the website, ie: CSS grid, flexbox.
+            </p>
+
+
+            <h2 id="about">Credits References & Tools</h2>
+            <p>- All pictures not taken by developer were legally obtained from Unsplash.com<br>
+            - W3Schools used as a learning resource for Javascript, HTML, and CSS<br>
+            <br>
+            - Icons by FontAwesome<br>
+            - Logo by Jacob Miller<br>
+            - Site design & code by Jacob Miller<br>
+            <br>
+            - Image editing done using GIMP<br>
+            - Vectors created with Clip Studio Paint and Vectornator<br>
+            - Code compiled in Visual Studio Code<br>
+            </p>
+            <div class="footerSpace"></div>
+        </section>
+    </div>
+
+    <!-- SIDEBAR MENU -->
+    <div id="sidebarMenu" class="sidebar">
+        <h1>News & Specials</h1>
+        <p> Content would appear here if there were any :(</p>
+        <h2 class="sidebarFooter">Jacob Miller MCC Fall Semester 2022</h2>
+      </div>
+
+    <footer>
+        <div class="footerSocialContainer">
+            <button><i class="fa fa-facebook"></i></button>
+            <button><i class="fa fa-instagram"></i></button>
+            <button><i class="fa fa-twitter"></i></button>
+        </div>
+        <div class="footerInfoContainer">
+                <i id="footerIcon" class="fa fa-map-marker fa-2x"></i> 
+            <p>Address: xxx rd name</p>
+                <i id="footerIcon" class="fa fa-phone fa-2x"></i>
+            <p>Phone: (555)555-5555</p> 
+                <i id="footerIcon" class="fa-solid fa-clock fa-2x"></i>
+            <p>Hours: 0:00am - 0:00pm | weekday - weekday</p>
+        </div>
+    </footer>
+    
+    <script src="scripts/main.js"></script>
+</body>
+</html>
