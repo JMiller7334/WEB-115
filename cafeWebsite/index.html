@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/indexStyle.css">
+    <script src="https://kit.fontawesome.com/1d4d27c0b7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <button class="returnButton" onclick="location.href='https://jmiller7334.mccdgm.net/web115'">Return</button>
+        <button onclick="location.href='https://jmiller7334.mccdgm.net/web115/cafeWebsite/'">Home</button>
+        <button onclick="location.href='https://jmiller7334.mccdgm.net/web115/cafeWebsite/menu'">Menu</button>
+        <button onclick="location.href='https://jmiller7334.mccdgm.net/web115/cafeWebsite/about'">About</button>
+
+        <button id="buttonToggleSidebar" class="sidebarButton" onclick="toggleSidebar()">&#9776; News</button>
+    </nav>
+
+    <div id="main" class="container">
+        <div class="mainImgOverlayContainer">
+            <h1><object class="logo1" data="img/cafeLogoWhite.svg"></object>
+                Miller Cafe</h1>
+            <h2>Good Coffee, Good Times</h2>
+        </div>
+        <div class="mainImgOverlay"></div>
+        <img src="img/homeMain.jpg" alt="HomepageImg" class="mainImg">
+      
+        <img src="img/coffeePour.jpg" alt="coffeeBeingPoured" class="asideImg">
+
+        <div class="sectionImgOverlay"></div>
+        <img src="img/coffeeBeans.jpg" alt="coffeeBeans" class="sectionImg">
+
+        <!-- Partial/Sample Menu -->
+        <div class="menuContainer">
+            <h1>Coffee is Our Pride</h1>
+            <h2>Customer Favorites</h2>
+
+            <article class="menu">
+                <p>Brown Sugar Latte: . . . . . $5.65</p>
+                <p>Vanilla Latte: . . . . . $4.85</p>
+                <p>Caramel Latte . . . . . $5.05</p>
+                <p>Espresso Chai Latte . . . . . $5.30</p>
+                <p></p>
+                <p></p>
+                <p>Cuppuccinos: . . . . . $4.05</p>
+                <p>Havana Cuppuccinos: . . . . . $4.45</p>
+                <P></P>
+                <p></p>
+                <p>Caffe Mocha: . . . . . $4.45</p>
+                <p>White Chocolate Mocha: . . . $4.45</p>
+                <p>Dark Chocolate Mocha: . . . $4.45</p>
+            </article>
+        </div>
+    </div>
+
+    <!-- SIDEBAR MENU -->
+    <div id="sidebarMenu" class="sidebar">
+        <h1>News & Specials</h1>
+        <p> Content would appear here if there were any :(</p>
+        <h2 class="sidebarFooter">Jacob Miller MCC Fall Semester 2022</h2>
+      </div>
+
+    <footer>
+        <div class="footerSocialContainer">
+            <button><i class="fa fa-facebook"></i></button>
+            <button><i class="fa fa-instagram"></i></button>
+            <button><i class="fa fa-twitter"></i></button>
+        </div>
+
+        <div class="footerInfoContainer">
+                <i id="footerIcon" class="fa fa-map-marker fa-2x"></i> 
+            <p>Address: xxx rd name</p>
+                <i id="footerIcon" class="fa fa-phone fa-2x"></i>
+            <p>Phone: (555)555-5555</p> 
+                <i id="footerIcon" class="fa-solid fa-clock fa-2x"></i>
+            <p>Hours: 0:00am - 0:00pm | weekday - weekday</p>
+        </div>
+    </footer>
+    
+    <script src="scripts/main.js"></script>
+</body>
+</html>
