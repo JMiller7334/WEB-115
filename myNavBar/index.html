@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Navigation</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/1d4d27c0b7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- NAVIGATION MENU -->
+    <nav>
+        <button class="returnButton" onclick="location.href='https://jmiller7334.mccdgm.net/web115'">Return</button>
+        <button onclick="location.href='https://jmiller7334.mccdgm.net/web115/cafeWebsite/'">Home</button>
+        <button onclick="location.href='https://jmiller7334.mccdgm.net/web115/cafeWebsite/menu'">Menu</button>
+        <button onclick="location.href='https://jmiller7334.mccdgm.net/web115/cafeWebsite/about'">About</button>
+
+        <button id="buttonToggleSidebar" onclick="toggleSidebar()" class="sidebarButton">&#9776; Sidebar</button>
+    </nav>
+
+    <!-- --------------- -->
+    <!-- PAGE CONTENT HERE -->
+    <!-- --------------- -->
+
+     <!-- SIDEBAR MENU -->
+     <div id="sidebarMenu" class="sidebar">
+        <h1>News & Specials</h1>
+        <p> Content would appear here if there were any :(</p>
+        <h2 class="sidebarFooter">Jacob Miller MCC Fall Semester 2022</h2>
+      </div>
+
+    <!-- FOOTER MENU -->
+    <footer>
+        <div class="footerSocialContainer">
+            <button><i class="fa fa-facebook"></i></button>
+            <button><i class="fa fa-instagram"></i></button>
+            <button><i class="fa fa-twitter"></i></button>
+        </div>
+
+        <div class="footerInfoContainer">
+                <i id="footerIcon" class="fa fa-map-marker fa-2x"></i> 
+            <p>Address: xxx rd name</p>
+                <i id="footerIcon" class="fa fa-phone fa-2x"></i>
+            <p>Phone: (555)555-5555</p> 
+                <i id="footerIcon" class="fa-solid fa-clock fa-2x"></i>
+            <p>Hours: 0:00am - 0:00pm | weekday - weekday</p>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
